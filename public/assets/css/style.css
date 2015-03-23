@@ -1,0 +1,40 @@
+/* 
+    Created on : 14/03/2015, 02:49:33 PM
+    Author     : Estudiante
+*/
+body {
+    background-color: aqua;
+}
+
+h1.titulo {
+    color: green;
+}
+
+#logo {
+    font-size: 60px;
+}
+
+div > p {
+    background-color: purple;
+}
+
+ol li:nth-child(odd) {
+    background-color: red;
+
+}
+
+ol li:nth-child(odd):hover {
+    background-color: green;
+}
+
+ol li:nth-child(even) {
+    background-color: yellow;
+}
+
+ol li:nth-child(even):hover {
+    background-color: green;
+}
+
+h1[class*="z"] {
+    background-color: blue;
+}
